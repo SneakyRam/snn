@@ -231,7 +231,7 @@ export default function Blog() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="mt-20 py-12 bg-gradient-to-r from-cyan-400/10 to-purple-500/10 rounded-2xl text-center"
+          className="mt-20 py-12 bg-linear-to-r from-cyan-400/10 to-purple-500/10 rounded-2xl text-center"
         >
           <h2 className="text-3xl font-space font-bold mb-4">Stay Updated</h2>
           <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
